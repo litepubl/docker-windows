@@ -1,0 +1,1 @@
+docker-compose exec postgres bash docker/postgres-dump.sh
