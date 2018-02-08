@@ -1,0 +1,1 @@
+pg_dump -U first --schema-only --no-owner --inserts first>docker/dump.sql

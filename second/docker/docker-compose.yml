@@ -18,7 +18,7 @@ services:
           # this network
           - default 
           # external network
-          - second_default
+          - first_default
       external_links:
         - ${EXTERNAL_NGINX}
 
@@ -64,5 +64,5 @@ volumes:
 networks:
   default:
     driver: bridge
-  second_default:
+  first_default:
     external: true

@@ -1,2 +1,2 @@
 <?php
-echo sprintf('<h1>%s</h1>', basename(dirname(__DIR__)));
+echo 'Hi from first container';
